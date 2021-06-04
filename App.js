@@ -27,16 +27,14 @@ export default function App() {
 
 <View  style={styles.caixa} >
 <Text  style={styles.textView1}> ATM - BANCO BPC </Text>
-<Text style={styles.textView2}>Dinheiro
-</Text>
 
-<Text style={styles.textView3}> Papel </Text>
-</View>
-<View  style={styles.caixa} >
 
 </View>
 <View  style={styles.caixa} >
-
+<Text  style={styles.textView1}> ATM - BANCO BAI </Text>
+</View>
+<View  style={styles.caixa} >
+<Text  style={styles.textView1}> ATM - BANCO BIC </Text>
 </View>
 
 
@@ -44,8 +42,6 @@ export default function App() {
  
  
 
-
- 
   );
 }
 
@@ -64,7 +60,7 @@ const styles = StyleSheet.create({
   },
 
   HeaderTitle:{
-    marginTop: -170,
+    marginTop: -150,
     width: 250,
     fontSize:24,
     fontWeight:'bold',
@@ -85,7 +81,7 @@ const styles = StyleSheet.create({
   
   },
   caixa:{
-    marginTop:10,
+    marginTop:8,
     justifyContent: "space-between",
     flexDirection: "row",
     alignItems: "center",
@@ -100,12 +96,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     fontWeight:'bold',
   },
-  textView2:{
-    marginTop: -30,
-    paddingRight:70,
-   fontSize:12,
-    
-  },
+  
   textView3:{
     marginTop:-3,
     paddingRight:70,
